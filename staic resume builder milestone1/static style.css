@@ -1,0 +1,107 @@
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #B0E0E6;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Section Styling */
+.left-section {
+    background-color: #7CD1CE;
+    color: white;
+    padding: 20px;
+    width: 45%;
+    text-align: center;
+    border-right: 5px solid #FFA500;
+}
+
+.profile {
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px  solid #FFA500;
+    margin-bottom: 20px;
+}
+
+p{
+    text-align: justify;
+    hyphens: auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 5px 0;
+    margin-bottom: 20px;
+    text-align: center ;
+}
+
+h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: #FFA500;
+    border-radius: 8px;
+    box-shadow: 0 0 3.5px #FFA500;
+    margin: 2%;
+    background-color:#FDF5E6;
+    margin-bottom: 5%;
+}
+
+.h3{
+    background-color:#B0E0E6;
+     margin: 20px 0 10px;
+      text-align: center ;
+}
+
+.para{
+    color: black;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+ul {
+    list-style-type: fill round;
+    padding: 10;
+    margin: 10px 0;
+}
+
+ul li {
+margin: 5px 0;
+}
+
+/* Right Section Styling */
+.right-section {
+    padding: 20px;
+    width: 65%;
+    background-color: #FDF5E6;
+}
+
+button {
+    font-family: Arial, sans-serif;
+    border-radius: 8px;
+    box-shadow: 0 0 3.5px #FFA500;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    border:none;
+    background-color:#7CD1CE;
+    width:180px;
+    height:40px;
+}
+
+button:hover {
+    background-color: #FFA500;
+}
